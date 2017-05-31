@@ -24,7 +24,7 @@
 
 function countChar(str) {
   var strNoSpaces = str.split(" ").join("");
-  console.log(strNoSpaces);
+  // console.log(strNoSpaces);
   output = {};
   for (var i = 0; i < strNoSpaces.length; i++) {
     output[strNoSpaces[i]] = strNoSpaces.split(strNoSpaces[i]).length-1;
